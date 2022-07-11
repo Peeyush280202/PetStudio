@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Mingzat&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@600&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+#navbar{
+  display: flex;
+  position: sticky;
+  /* background-color: rgba(255, 230, 0, 0.679); */
+  background-color: #ffcd00;
+  padding: 8px 25px;
+    height: 55px;
+}
+#navbar img{
+    /* filter: invert(-5); */
+    height: 65px;
+    width: 65px;
+    margin: -6px 0px;
+}
+#navbar li {
+    margin: 4px 5px;
+    list-style: none;
+}
+
+#navbar ul {
+    display: flex; 
+}
+#navbar li a{
+    font-family: 'Mingzat', sans-serif;
+    padding: 0px 21px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+#navbar li a:hover{
+    color: white;
+    transition-duration: 0.3s;
+    transform: scale(1.2);
+    border-bottom: 1px solid white;
+}
+#navbar li a:active{
+    color: white;
+    border-bottom: 1px solid white;
+}
+/* .heading{
+    color: #ffb100;
+    text-shadow: -3px -2px black;
+    font-size: 40px;
+    margin-left: 675px;
+    padding: 1px 1px;
+    font-family: 'Edu QLD Beginner', cursive;
+} */
+
+#service{
+    background: url('../static/dogcat.jpg') center  center/cover no-repeat;
+    /* background-attachment: fixed; */
+    height: 370px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+/* #service::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    opacity: .5;
+} */
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 200px;
+    padding: 70px;
+    font-size: 20px;
+}
+.intro h1{
+    color: wheat;
+    text-shadow: 3px 1px black;
+    font-family: 'Arima', cursive;
+    font-size: 60px;
+}
+.intro p{
+    color: white;
+    font-size: 1.8rem;
+    padding: 3px;
+    text-shadow: 2px 0px black;
+}
+#delta{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.photo img{
+    height: 500px;
+    width: 400px;
+    margin: 22px 47px;
+    border-radius: 12px;
+    border: 8px dashed white;
+    
+}
+.first{
+    /* border: 1px solid blue; */
+    display: flex; 
+    margin: 0px 65px;  
+}
+#delta::before{
+    content: "";
+    background: url('../static/bg2.jpg') center center/cover ;
+    position: absolute;
+    z-index: -1;
+    opacity: .8;
+    height: 2000px;
+    width: 100%;
+    border-radius: 32px;
+
+}
+h1{
+    color: rgb(238, 203, 137);
+    text-shadow: 3px 1px black;
+    font-family: 'Arima', cursive;
+    font-size: 40px;
+    text-align: center;   
+}
+#delta h2{
+    color: #ffcd00;
+    text-shadow: 1px 1px black;
+    font-family: 'Mingzat', sans-serif;
+    font-size: 47px;
+    text-align: center;
+    text-decoration: underline; 
+}
+.para1{
+    color: white;
+    font-size: 24px;
+    margin: 56px 3px;
+    padding: 27px 26px;
+}
+ button{
+    padding: 5px;
+    display: block;
+    margin: 31px auto;
+    color: #ffcd00;
+    font-size: 1rem;
+    background: black;
+    border: 0px solid black;
+    cursor: pointer;
+    width: 110px;
+    font-family: fantasy;
+    border-radius: 6px;  
+}
+ button:hover{
+    background-color:#ffcd00;
+    color: black;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 2px 2px rgba(124, 124, 124, 0.736);
+}
+#alpha{
+   background-color: #ffcd00;
+   height: 400px;
+   display: flex;
+   padding: 20px 20px;
+   border-top-left-radius: 32px;
+   border-top-right-radius: 32px;
+   margin-top: 20px;
+}
+#connect{
+    background-color: black;
+}
+.one ul li{
+    list-style: none;   
+}
+.one ul li a{
+    color: grey;
+    text-decoration: none;
+}
+.one ul li a:hover{
+    color: white;
+}
+h3{
+    font-size: 24px;
+    border-top: 1px solid rgb(30, 23, 1);
+}
+.one{
+    padding: 10px 25px;
+    margin: 10px 10px;
+    font-family: 'Mingzat';
+}
+#connect img{
+    height: 50px;
+    width: 50px;
+    margin: 0px 45px;
+}
+h4{
+    color: white;
+    font-family: 'Mingzat';
+    font-size: 18px;
+    margin: 0px 56px;
+}
+#foot{
+    text-align: center;
+}
+
+

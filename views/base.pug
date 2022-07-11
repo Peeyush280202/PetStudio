@@ -1,0 +1,82 @@
+//- layout.pug
+doctype html
+html
+  head
+    title The Pet Studio
+    block scripts
+    block style 
+  body
+     nav#navbar
+                img(src="../static/logo.png", alt="logo")
+                ul
+                    li #[a(href="/") Home]
+                    li #[a(href="/shop") Shop]
+                    li #[a(href="/") Services] 
+                    li #[a(href="/contact") Contact]
+     
+     block content
+     
+     section#alpha
+            div.one
+                h3 Locations In India
+                div.conten
+                     ul
+                        li #[a(href="/") New Delhi]
+                        li #[a(href="/") Mumbai]
+                        li #[a(href="/") Pune] 
+                        li #[a(href="/") Banglore]
+                        li #[a(href="/") Hydrabad]
+                        li #[a(href="/") Ranchi]
+                        li #[a(href="/") Goa]
+                        li #[a(href="/") Kolkata]
+                        li #[a(href="/") Ahemdabad]
+                        li #[a(href="/") Jaipur]
+
+            div.one
+                h3 Other Locations
+                div.conten
+                     ul
+                        li #[a(href="/") London | UK]
+                        li #[a(href="/") Paris | France]
+                        li #[a(href="/") Munich | Germany] 
+                        li #[a(href="/") Las Vegas | USA]
+                        li #[a(href="/") New York | USA]
+                        li #[a(href="/") Tokyo |Japan]
+
+            div.one
+                h3 Shop
+                div.conten
+                     ul
+                        li #[a(href="/") Food]
+                        li #[a(href="/") Cloths]
+                        li #[a(href="/") Bowl] 
+                        li #[a(href="/") Medicine]
+                        li #[a(href="/") Belts]
+
+            div.one
+                h3 Know About Your Pets
+                div.conten
+                     ul
+                        li #[a(href="/") Dogs]
+                        li #[a(href="/") Cats]
+                        li #[a(href="/") Birds] 
+                        li #[a(href="/") Others]
+
+            div.one
+                h3 About Us
+                div.conten
+                     ul
+                        li #[a(href="/") Peeyush, Founder]
+                        li #[a(href="/") Manish, Co-Founder]
+                        li #[a(href="/") Virat, HR]            
+                        li #[a(href="/") Garima, Assistant HR]            
+
+     section#connect
+        h4 Connect With Us :
+            div.container
+                img(src="../static/insta.png", alt="")        
+                img(src="../static/facebook.png", alt="")        
+                img(src="../static/twitter.png", alt="")
+     
+     footer#foot 
+         |Copyright © www.The Pet Studio.com | All rights reserved. 

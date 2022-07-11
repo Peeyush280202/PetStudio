@@ -1,0 +1,120 @@
+//- index.pug
+doctype html 
+html 
+    head    
+        style   
+            include ../static/style.css
+                
+
+    body
+        nav#navbar
+                img(src="../static/logo.png", alt="logo")
+                ul
+                    li #[a(href="/") Home]
+                    li #[a(href="/") Shop]
+                    li #[a(href="#connect") Services] 
+                    li #[a(href="/") Contact]
+                //- p.heading The Pet Studio     
+        section#service 
+          div.intro
+            h1 WELCOME TO PET STUDIO
+            p All kinds of pet services including health check-up | grooming | foods | accessories are available all across India 
+            p and major city all over the world like London,Newyork,Tokyo,Paris and many more..
+        
+        h1 Why Us ?
+        section#delta 
+                h2 Pet Products
+                div.first        
+                    div.photo
+                        img(src="../static/hug2.jpg", alt="")
+                    div.para1
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At obcaecati velit quod, quaerat illo error quae alias rem deserunt cupiditate impedit quibusdam eum eveniet sunt iusto omnis placeat nam dolor hic, quam autem expedita earum, consequuntur esse. Vitae vero, nam dicta laborum expedita sapiente dignissimos?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, tempora aperiam eveniet ducimus maxime, ipsa mollitia blanditiis similique consequatur laudantium nostrum reprehenderit neque et! Animi explicabo itaque mollitia nostrum dolore neque non similique nisi perferendis ad quae, quas reiciendis. Nisi quibusdam reprehenderit dolore veritatis officia!
+                        br
+                        button EXPLORE
+
+                h2 Pet HealthCare        
+                div.first 
+                    div.para1
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At obcaecati velit quod, quaerat illo error quae alias rem deserunt cupiditate impedit quibusdam eum eveniet sunt iusto omnis placeat nam dolor hic, quam autem expedita earum, consequuntur esse. Vitae vero, nam dicta laborum expedita sapiente dignissimos?
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus reprehenderit nemo neque veritatis nesciunt id. Doloremque a suscipit nostrum doloribus culpa et odio quisquam rem alias minima enim id earum, ipsa repudiandae ducimus vitae ut amet! Dicta iure aliquam neque placeat ipsa dolores libero, enim distinctio ipsum fugiat, minus asperiores.
+                        br
+                        button EXPLORE  
+                    div.photo
+                        img(src="../static/hug1.jpg", alt="")
+
+                h2 Grooming            
+                div.first   
+                    div.photo
+                        img(src="../static/play.jpg", alt="")
+                    div.para1
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At obcaecati velit quod, quaerat illo error quae alias rem deserunt cupiditate impedit quibusdam eum eveniet sunt iusto omnis placeat nam dolor hic, quam autem expedita earum, consequuntur esse. Vitae vero, nam dicta laborum expedita sapiente dignissimos?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatem, mollitia doloribus totam perferendis recusandae omnis, numquam doloremque dicta quis ipsa possimus error obcaecati, officia vitae molestias tempora sit enim eum placeat fugit. Deserunt ratione consequatur, ipsam voluptatibus laudantium nulla amet, dolor placeat, eveniet quas quam aut itaque perspiciatis voluptas! Explicabo ipsam earum maiores dolores dolor non iure amet. Voluptate pariatur quaerat aut. Minus, tempore! Autem error perferendis cupiditate blanditiis in saepe consequatur ex beatae mollitia!
+                        br
+                        button EXPLORE   
+        section#alpha
+            div.one
+                h3 Locations In India
+                div.content
+                     ul
+                        li #[a(href="/") New Delhi]
+                        li #[a(href="/") Mumbai]
+                        li #[a(href="/") Pune] 
+                        li #[a(href="/") Banglore]
+                        li #[a(href="/") Hydrabad]
+                        li #[a(href="/") Ranchi]
+                        li #[a(href="/") Goa]
+                        li #[a(href="/") Kolkata]
+                        li #[a(href="/") Ahemdabad]
+                        li #[a(href="/") Jaipur]
+
+            div.one
+                h3 Other Locations
+                div.content
+                     ul
+                        li #[a(href="/") London | UK]
+                        li #[a(href="/") Paris | France]
+                        li #[a(href="/") Munich | Germany] 
+                        li #[a(href="/") Las Vegas | USA]
+                        li #[a(href="/") New York | USA]
+                        li #[a(href="/") Tokyo |Japan]
+
+            div.one
+                h3 Shop
+                div.content
+                     ul
+                        li #[a(href="/") Food]
+                        li #[a(href="/") Cloths]
+                        li #[a(href="/") Bowl] 
+                        li #[a(href="/") Medicine]
+                        li #[a(href="/") Belts]
+
+            div.one
+                h3 Know About Your Pets
+                div.content
+                     ul
+                        li #[a(href="/") Dogs]
+                        li #[a(href="/") Cats]
+                        li #[a(href="/") Birds] 
+                        li #[a(href="/") Others]
+
+            div.one
+                h3 About Us
+                div.content
+                     ul
+                        li #[a(href="/") Peeyush,Founder]
+                        li #[a(href="/") Manish,Co-Founder]
+                        li #[a(href="/") Virat,HR]            
+
+        section#connect
+            h4 Connect With Us :
+            div.container
+                img(src="../static/insta.png", alt="")        
+                img(src="../static/facebook.png", alt="")        
+                img(src="../static/twitter.png", alt="")        
+
+        footer#foot 
+         |Copyright © www.The Pet Studio.com | All rights reserved.                                           
+                                                          
+         
+        script 
+            include ../static/index.js           

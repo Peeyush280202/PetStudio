@@ -1,0 +1,34 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style   
+        include ../static/style.css
+        include ../static/shopcss.css
+
+block content 
+    section#shopbox 
+        div.firstrow 
+            div.box
+                img(src="../static/logo1.png", alt="",id ="shoplogo1",class="shoplogo")
+                button#btn1  Cloths
+        
+            div.box
+                img(src="../static/logo2.png", alt="",id ="shoplogo2",class="shoplogo")
+                button#btn2 Medicine   
+        
+            div.box
+                img(src="../static/logo3.png", alt="",id ="shoplogo3",class="shoplogo")
+                button#btn3 FOOD 
+
+        div.secondrow 
+            div.box
+                img(src="../static/logo4.png", alt="",id ="shoplogo4",class="shoplogo")
+                button#btn4 COLLARS
+        
+            div.box
+                img(src="../static/logo5.png", alt="",id ="shoplogo5",class="shoplogo")
+                button#btn5 BOWLS    
+                   

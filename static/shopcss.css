@@ -1,0 +1,66 @@
+#shopbox {
+    /* border: 1px solid purple; */
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    background: url('../static/79ccd24f-29b8-44a3-a0a3-d659bbaab179.jpg') center center/cover;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+}
+.firstrow {
+    margin: 40px 0px;
+    /* border: 1px solid yellow; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.secondrow {
+
+    margin: 5px 5px;
+    /* border: 1px solid yellow; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+
+}
+
+.box {
+    margin: 10px 10px;
+    background-color: #ffcd00;
+    height: 188px;
+    width: 184px;
+    text-align: center;
+    box-shadow: 3px 3px gray;
+    border-radius: 10px;
+
+}
+.shoplogo{
+    height: 100px;
+    width: 110px;
+    margin: 20px 5px;
+    padding: 2px 2px;
+}
+#btn1{
+    margin: 0px auto;
+    padding: 2px 2px;
+}#btn2{
+    margin: 0px auto;
+    padding: 2px 2px;
+}
+#btn3{
+    margin: 0px auto;
+    padding: 2px 2px;
+}
+#btn4{
+    margin: 0px auto;
+    padding: 2px 2px;
+}
+#btn5{
+    margin: 0px auto;
+    padding: 2px 2px;
+}

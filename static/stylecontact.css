@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+
+#gr{
+    background: url('../static/shayna-douglas-lgILhKUELg4-unsplash.jpg') center center/cover;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 32px;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myinput{
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 40%;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: #ffcd00;
+}
